@@ -1,0 +1,16 @@
+2020-03-08T15:43:15.554+0530 I CONTROL  [initandlisten] MongoDB starting : pid=22629 port=27017 dbpath=/home/cocoslabs/Documents/Dev_Hitachi_Annotation/Dev/hitachi-labeltool-dockerization/mongodb-local 64-bit host=cocoslabs-MS-7A15
+2020-03-08T15:43:15.554+0530 I CONTROL  [initandlisten] db version v3.4.24
+2020-03-08T15:43:15.554+0530 I CONTROL  [initandlisten] git version: 865b4f6a96d0f5425e39a18337105f33e8db504d
+2020-03-08T15:43:15.554+0530 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2020-03-08T15:43:15.554+0530 I CONTROL  [initandlisten] allocator: tcmalloc
+2020-03-08T15:43:15.554+0530 I CONTROL  [initandlisten] modules: none
+2020-03-08T15:43:15.554+0530 I CONTROL  [initandlisten] build environment:
+2020-03-08T15:43:15.554+0530 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2020-03-08T15:43:15.554+0530 I CONTROL  [initandlisten]     distarch: x86_64
+2020-03-08T15:43:15.554+0530 I CONTROL  [initandlisten]     target_arch: x86_64
+2020-03-08T15:43:15.554+0530 I CONTROL  [initandlisten] options: { config: "../Dev/hitachi-labeltool-dockerization/mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, security: { authorization: "enabled" }, storage: { dbPath: "/home/cocoslabs/Documents/Dev_Hitachi_Annotation/Dev/hitachi-labeltool-dockerization/mongodb-local", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "./mongod.log" } }
+2020-03-08T15:43:15.555+0530 I STORAGE  [initandlisten] exception in initAndListen: 20 Attempted to create a lock file on a read-only directory: /home/cocoslabs/Documents/Dev_Hitachi_Annotation/Dev/hitachi-labeltool-dockerization/mongodb-local, terminating
+2020-03-08T15:43:15.555+0530 I NETWORK  [initandlisten] shutdown: going to close listening sockets...
+2020-03-08T15:43:15.555+0530 I NETWORK  [initandlisten] shutdown: going to flush diaglog...
+2020-03-08T15:43:15.555+0530 I CONTROL  [initandlisten] now exiting
+2020-03-08T15:43:15.555+0530 I CONTROL  [initandlisten] shutting down with code:100

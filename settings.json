@@ -1,7 +1,7 @@
 {
   "configuration": {
-    "images-folder": "",
-    "internal-folder": ""
+    "images-folder": "/home/cocoslabs/Documents/Dev_Hitachi_Annotation/semantic-segmentation-editor/input-images",
+    "internal-folder": "/home/cocoslabs/Documents/Dev_Hitachi_Annotation/semantic-segmentation-editor/input-images"
   },
   "sets-of-classes": [
     {
