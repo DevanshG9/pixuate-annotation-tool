@@ -43,11 +43,7 @@
       "name": "AD20",
       "objects": [
         {"label": "VOID", "color": "#CFCFCF"},
-        {
-          "label": "Void",
-          "color": "#FF8800",
-          "icon": "BorderNoneVariant"
-        }, {
+         {
           "label": "Road",
           "color": "#799024",
           "icon": "Road"
