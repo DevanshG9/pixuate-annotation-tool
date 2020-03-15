@@ -3,7 +3,7 @@ import os
 
 
 
-base_path = '/home/cocoslabs/Documents/Dev_Hitachi_Annotation/semantic-segmentation-editor/input-images/'
+base_path = '/home/cocoslabs/Documents/Dev_Hitachi_Annotation/semantic-segmentation-editor/input-images/line_categorisation/Person_4/'
 for file in os.listdir(base_path):
     if file.endswith('.txt'):
         try:

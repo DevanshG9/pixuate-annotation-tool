@@ -1,49 +1,159 @@
 {
   "configuration": {
-    "images-folder": "/home/cocoslabs/Documents/Dev_Hitachi_Annotation/semantic-segmentation-editor/input-images/",
-    "internal-folder": "/home/cocoslabs/Documents/Dev_Hitachi_Annotation/semantic-segmentation-editor/input-images/"
+    "images-folder": "/home/cocoslabs/Documents/Dev_Hitachi_Annotation/semantic-segmentation-editor/input-images",
+    "internal-folder": "/home/cocoslabs/Documents/Dev_Hitachi_Annotation/semantic-segmentation-editor/input-images"
   },
   "sets-of-classes": [
     {
-      "name": "TestClasses", "objects": [
-      {"label": "0", "color": "#000000"},
-      {"label": "1", "color": "#FF0000"},
-      {"label": "2", "color": "#0000FF"},
-      {"label": "3", "color": "#00FF00"},
-      {"label": "4", "color": "#FF0080"},
-      {"label": "5", "color": "#800080"},
-      {"label": "6", "color": "#FF00FF"},
-      {"label": "7", "color": "#6464FF"},
-      {"label": "8", "color": "#227711"},
-      {"label": "9", "color": "#646464"},
-      {"label": "A", "color": "#DCDCDC"},
-      {"label": "B", "color": "#FF5000"},
-      {"label": "C", "color": "#F0E600"},
-      {"label": "D", "color": "#00CC99"},
-      {"label": "E", "color": "#FFFF99"},
-      {"label": "F", "color": "#FF8080"},
-      {"label": "G", "color": "#999966"},
-      {"label": "H", "color": "#88CC00"},
-      {"label": "I", "color": "#995500"},
-      {"label": "J", "color": "#DCDCDC"},
-      {"label": "K", "color": "#FF5000"},
-      {"label": "L", "color": "#F0E600"},
-      {"label": "M", "color": "#00CC99"},
-      {"label": "N", "color": "#FFFF99"},
-      {"label": "O", "color": "#FF8080"},
-      {"label": "P", "color": "#999966"},
-      {"label": "Q", "color": "#88CC00"},
-      {"label": "R", "color": "#995500"},
-      {"label": "S", "color": "#DCDCDC"},
-      {"label": "T", "color": "#FF5000"},
-      {"label": "U", "color": "#F0E600"},
-      {"label": "V", "color": "#00CC99"},
-      {"label": "W", "color": "#FFFF99"},
-      {"label": "X", "color": "#FF8080"},
-      {"label": "Y", "color": "#999966"},
-      {"label": "Z", "color": "#88CC00"},
-      {"label": "INVALID", "color": "#995500"}
+      "name": "Cityscapes", "objects": [
+      {"label": "LINE1", "color": "#CFCFCF"},
+      {"label": "LINE2", "color": "#804080", "icon": "Road"},
+      {"label": "LINE3", "color": "#F423E8", "icon": "NaturePeople"},
+      {"label": "INVALID", "color": "#FAAAA0", "icon": "Parking"},
+      {"label": "wheel_front", "color": "#E6968C", "icon": "Train"},
+      {"label": "wheel_back_1", "color": "#DC143C", "icon": "Walk"},
+      {"label": "wheel_back_2", "color": "#FF0000", "icon": "Motorbike"}
+      
+    ]
+    },
+    {
+      "name": "AD20",
+      "objects": [
+        {"label": "VOID", "color": "#CFCFCF"},
+         {
+          "label": "Road",
+          "color": "#799024",
+          "icon": "Road"
+        },
+        {
+          "label": "Pedestrian",
+          "color": "#FAFFF5",
+          "icon": "Walk"
+        },
+        {
+          "label": "Car",
+          "color": "#FF6D67",
+          "icon": "Car"
+        },
+        {
+          "label": "Truck",
+          "color": "#FF5B8E",
+          "icon": "Truck"
+        },
+        {
+          "label": "Bus",
+          "color": "#FF6FA2",
+          "icon": "Bus"
+        },
+        {
+          "label": "On rails",
+          "color": "#FF7FC3",
+          "icon": "Train"
+        },
+        {
+          "label": "Motorcycle",
+          "color": "#FFA859",
+          "icon": "Motorbike"
+        },
+        {
+          "label": "Bicycle",
+          "color": "#FFDB62",
+          "icon": "Bike"
+        },
+        {
+          "label": "Sky",
+          "color": "#87D8FF",
+          "icon": "WeatherPartlycloudy"
+        },
+        {
+          "label": "Vegetation",
+          "color": "#7BC32B",
+          "icon": "PineTree"
+        },
+        {
+          "label": "Sidewalk",
+          "color": "#827E67",
+          "icon": "NaturePeople"
+        },
+        {
+          "label": "Traffic sign",
+          "color": "#9E9BFF",
+          "icon": "SignDirection"
+        },
+        {
+          "label": "Lane marking",
+          "color": "#DDCDFF",
+          "icon": "RoadVariant"
+        },
+        {
+          "label": "Building",
+          "color": "#785C6F",
+          "icon": "HomeVariant"
+        },
+        {
+          "label": "Traffic light",
+          "color": "#119599",
+          "icon": "SignDirection"
+        },
+        {
+          "label": "Snow covered",
+          "color": "#F1F1EF",
+          "icon": "Snowflake"
+        },
+        {
+          "label": "Pole",
+          "color": "#FBB577",
+          "icon": "Instapaper"
+        },
+        {
+          "label": "Unpaved road",
+          "color": "#C0AE89",
+          "icon": "BlurLinear"
+        },
+        {
+          "label": "Guard rail",
+          "color": "#4D3D48",
+          "icon": "SignCaution"
+        }
+      ]
+    },
+    {
+      "name": "33 Classes", "objects": [
+      {"label": "VOID", "color": "#CFCFCF"},
+      {"label": "Class 1"},
+      {"label": "Class 2"},
+      {"label": "Class 3"},
+      {"label": "Class 4"},
+      {"label": "Class 5"},
+      {"label": "Class 6"},
+      {"label": "Class 7"},
+      {"label": "Class 8"},
+      {"label": "Class 9"},
+      {"label": "Class 10"},
+      {"label": "Class 11"},
+      {"label": "Class 12"},
+      {"label": "Class 13"},
+      {"label": "Class 14"},
+      {"label": "Class 15"},
+      {"label": "Class 16"},
+      {"label": "Class 17"},
+      {"label": "Class 18"},
+      {"label": "Class 19"},
+      {"label": "Class 20"},
+      {"label": "Class 21"},
+      {"label": "Class 22"},
+      {"label": "Class 23"},
+      {"label": "Class 24"},
+      {"label": "Class 25"},
+      {"label": "Class 26"},
+      {"label": "Class 27"},
+      {"label": "Class 28"},
+      {"label": "Class 29"},
+      {"label": "Class 30"},
+      {"label": "Class 31"},
+      {"label": "Class 32"}
     ]
     }
   ]
 }
+

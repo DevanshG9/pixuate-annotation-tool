@@ -6,10 +6,10 @@
   "sets-of-classes": [
     {
       "name": "Cityscapes", "objects": [
-      {"label": "VOID", "color": "#CFCFCF"},
-      {"label": "Road", "color": "#804080", "icon": "Road"},
-      {"label": "Sidewalk", "color": "#F423E8", "icon": "NaturePeople"},
-      {"label": "Parking", "color": "#FAAAA0", "icon": "Parking"},
+      {"label": "LINE1", "color": "#CFCFCF"},
+      {"label": "LINE2", "color": "#804080", "icon": "Road"},
+      {"label": "LINE3", "color": "#F423E8", "icon": "NaturePeople"},
+      {"label": "INVALID", "color": "#FAAAA0", "icon": "Parking"},
       {"label": "Rail Track", "color": "#E6968C", "icon": "Train"},
       {"label": "Person", "color": "#DC143C", "icon": "Walk"},
       {"label": "Rider", "color": "#FF0000", "icon": "Motorbike"},

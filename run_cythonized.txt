@@ -1,5 +1,14 @@
-python -c import rename_serially /home/cocoslabs/Desktop/code_pracs
+python -c "import rename_serially" /home/cocoslabs/Desktop/code_pracs
 EXPLAINATION:python -c import rename_serially "complete file path on which operation needs to be performed"
 
-python -c import split_files /home/cocoslabs/Desktop/code_pracs/1 3
+#To generate annotations in .txt format
+python -c "import extract_mongo"
+python3 dev_extract_mongo.py
+
+
+#To visualize annotations
+python3 draw_annotated.py
+
+#To split data
+python -c "import split_files" /home/cocoslabs/Desktop/code_pracs/1 3
 EXPLAINATION:python -c import split_files "complete file path on which operation needs to be performed" "Number of people assigned to this"

@@ -1,0 +1,49 @@
+{
+  "configuration": {
+    "images-folder": "/home/cocoslabs/Documents/Dev_Hitachi_Annotation/semantic-segmentation-editor/input-images/",
+    "internal-folder": "/home/cocoslabs/Documents/Dev_Hitachi_Annotation/semantic-segmentation-editor/input-images/"
+  },
+  "sets-of-classes": [
+    {
+      "name": "TestClasses", "objects": [
+      {"label": "0", "color": "#000000"},
+      {"label": "1", "color": "#FF0000"},
+      {"label": "2", "color": "#0000FF"},
+      {"label": "3", "color": "#00FF00"},
+      {"label": "4", "color": "#FF0080"},
+      {"label": "5", "color": "#800080"},
+      {"label": "6", "color": "#FF00FF"},
+      {"label": "7", "color": "#6464FF"},
+      {"label": "8", "color": "#227711"},
+      {"label": "9", "color": "#646464"},
+      {"label": "A", "color": "#DCDCDC"},
+      {"label": "B", "color": "#FF5000"},
+      {"label": "C", "color": "#F0E600"},
+      {"label": "D", "color": "#00CC99"},
+      {"label": "E", "color": "#FFFF99"},
+      {"label": "F", "color": "#FF8080"},
+      {"label": "G", "color": "#999966"},
+      {"label": "H", "color": "#88CC00"},
+      {"label": "I", "color": "#995500"},
+      {"label": "J", "color": "#DCDCDC"},
+      {"label": "K", "color": "#FF5000"},
+      {"label": "L", "color": "#F0E600"},
+      {"label": "M", "color": "#00CC99"},
+      {"label": "N", "color": "#FFFF99"},
+      {"label": "O", "color": "#FF8080"},
+      {"label": "P", "color": "#999966"},
+      {"label": "Q", "color": "#88CC00"},
+      {"label": "R", "color": "#995500"},
+      {"label": "S", "color": "#DCDCDC"},
+      {"label": "T", "color": "#FF5000"},
+      {"label": "U", "color": "#F0E600"},
+      {"label": "V", "color": "#00CC99"},
+      {"label": "W", "color": "#FFFF99"},
+      {"label": "X", "color": "#FF8080"},
+      {"label": "Y", "color": "#999966"},
+      {"label": "Z", "color": "#88CC00"},
+      {"label": "INVALID", "color": "#995500"}
+    ]
+    }
+  ]
+}
